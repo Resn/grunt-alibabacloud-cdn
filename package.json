@@ -1,0 +1,34 @@
+{
+  "name": "grunt-alibabacloud-cdn",
+  "version": "1.0.0",
+  "description": "Cache refresher for Alibaba Cloud (Aliyun) CDN.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "alibaba",
+    "aliyun",
+    "upload",
+    "file",
+	"cdn",
+    "grunt"
+  ],
+  "author": "emlyn@resn.co.nz",
+  "homepage": "https://github.com/Resn/grunt-alibabacloud-cdn",
+  "repository": "github:Resn/grunt-alibabacloud-cdn",
+  "license": "MIT",
+  "engines": {
+    "node": ">6.4"
+  },
+  "dependencies": {
+    "ali-cdn-sdk": "^1.2.0",
+    "kefir": "^3.7.0"
+  },
+  "devDependencies": {
+    "glob": "^7.1.2"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.1"
+  }
+}
